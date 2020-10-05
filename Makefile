@@ -1,4 +1,5 @@
 objects = $(patsubst src/%.cpp,%,$(wildcard src/*.cpp))
+libs = $(patsubst %.cpp,%,$(wildcard lib/*.cpp))
 
 output_path := ./build
 
